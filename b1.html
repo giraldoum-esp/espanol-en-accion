@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Nivel B1 — Español en Acción</title>
+<link rel="icon" href="favicon.svg">
+<style>:root{--accent:#C2B59B;--accent-soft:#E9E2D2;}
+  :root{--bg:#F4F0E9;--deep:#344E41;--text:#2d3f36}
+  *{box-sizing:border-box} html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial}
+  a{color:var(--deep);text-decoration:none}
+  .wrap{max-width:1060px;margin:0 auto;padding:24px}
+  header{position:sticky;top:0;background:rgba(244,240,233,.9);backdrop-filter:blur(8px);border-bottom:1px solid rgba(52,78,65,.1);z-index:10}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+  .brand{display:flex;gap:10px;align-items:center}
+  .logo{width:36px;height:36px;border-radius:10px;background:conic-gradient(from 180deg, var(--accent), #DDE7D1, var(--bg), var(--accent));display:grid;place-items:center;border:1px solid rgba(52,78,65,.2);font-weight:800}
+  .hero{display:grid;grid-template-columns:1.2fr 1fr;gap:18px;align-items:center}
+  .hero h1{font-size:clamp(26px,4.2vw,44px);margin:0}
+  .sub{color:#5a6b63}
+  .card{background:#fff;border:1px solid rgba(52,78,65,.12);border-radius:16px;padding:18px;margin:14px 0;box-shadow:0 10px 28px rgba(52,78,65,.06)}
+  .btn{display:inline-block;padding:12px 16px;border-radius:12px;border:1px solid rgba(52,78,65,.15);background:var(--accent-soft);font-weight:700;margin:6px 8px 0 0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+  .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--accent-soft);border:1px solid rgba(52,78,65,.15);font-size:12px;margin:4px 6px 0 0}
+  .footer{color:#5a6b63;font-size:13px;margin-top:20px}
+  .kicker{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:#5a6b63}
+  .icon{font-size:20px;margin-right:6px}
+  @media(max-width:880px){.hero{grid-template-columns:1fr}}
+</style></head>
+<body>
+<header><div class="wrap"><nav>
+  <div class="brand"><div class="logo">EA</div>
+    <div><strong>Español en Acción</strong><div class="kicker">Nivel B1 · by Mercedes Giraldo</div></div>
+  </div>
+  <div><a href="index.html">Inicio</a> · <a href="recursos.html">Buscador</a> · <a href="planes.html">Planes</a> · <a href="estudiantes.html">Estudiantes</a></div>
+</nav></div></header>
+<main class="wrap">
+  <section class="hero card">
+    <div>
+      <h1>Nivel B1</h1>
+      <p class="sub">Recursos seleccionados, fichas imprimibles y actividades para tus clases del nivel B1.</p>
+      <a class="btn" href="plan_B1.pdf">📄 Descargar Plan B1</a>
+      <span class="pill">A1</span><span class="pill">A2</span><span class="pill">B1</span><span class="pill">B2</span>
+    </div>
+    <div class="card"><div class="kicker">Atajos del nivel</div>
+      <p><span class="icon">📘</span><a href="#fichas">Fichas principales</a></p>
+      <p><span class="icon">📖</span><a href="#lecturas">Lecturas</a></p>
+      <p><span class="icon">🎲</span><a href="#juegos">Juegos</a></p>
+      <p><span class="icon">🧩</span><a href="#ejercicios">Ejercicios</a></p>
+    </div>
+  </section>
+  <section id="fichas" class="card">
+    <div class="kicker">Fichas principales</div>
+    <div class="grid">
+      <div class="card"><h3>Pretéritos • B1</h3><p class="sub">Imperfecto vs indefinido.</p><a class="btn" href="ficha_preteritos.html">Abrir</a></div><div class="card"><h3>Expresiones • B1</h3><p class="sub">Naturalidad y matiz.</p><a class="btn" href="ficha_expresiones.html">Abrir</a></div><div class="card"><h3>Conectores • B1</h3><p class="sub">Cohesión y coherencia.</p><a class="btn" href="ficha_conectores.html">Abrir</a></div>
+    </div>
+  </section>
+  <section id="lecturas" class="card">
+    <div class="kicker">Lecturas</div>
+    <div class="grid">
+      <div class="card"><h3>Lecturas A1–B1</h3><p class="sub">Crónicas y relatos breves.</p><a class="btn" href="ficha_lecturas.html">Abrir</a></div>
+    </div>
+  </section>
+  <section id="juegos" class="card">
+    <div class="kicker">Juegos y dinámicas</div>
+    <div class="grid">
+      <div class="card"><h3>Storytelling</h3><p class="sub">Dados e imágenes.</p><a class="btn" href="ficha_juegos.html">Abrir</a></div>
+    </div>
+  </section>
+  <section id="ejercicios" class="card">
+    <div class="kicker">Ejercicios interactivos</div>
+    <div class="grid">
+      <div class="card"><h3>Ejercicio: huecos (Pretéritos)</h3><p class="sub">Contraste y marcadores.</p><a class="btn" href="ejercicio_gap_preteritos.html">Abrir</a></div><div class="card"><h3>Ejercicio: opción múltiple (Subj.)</h3><p class="sub">Usos en contexto.</p><a class="btn" href="ejercicio_mc_subjuntivo.html">Abrir</a></div>
+    </div>
+  </section>
+  <div class="footer">© 2025 Español en Acción</div>
+</main></body></html>
