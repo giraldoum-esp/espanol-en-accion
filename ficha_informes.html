@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang='es'><head><meta charset='UTF-8'/><meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+    <title>Ficha Informes · Español en Acción</title><style>
+  :root{--bg:#F4F0E9;--mint:#DDE7D1;--green:#9BBF9D;--deep:#344E41;--white:#ffffff}
+  *{box-sizing:border-box} html,body{margin:0;padding:0;background:var(--bg);color:var(--deep);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial}
+  a{color:var(--deep);text-decoration:none}
+  .wrap{max-width:1100px;margin:0 auto;padding:24px}
+  header{background:linear-gradient(180deg, var(--white), var(--bg));position:sticky;top:0;z-index:10;border-bottom:1px solid rgba(52,78,65,.08);backdrop-filter:blur(6px)}
+  .brand{display:flex;align-items:center;gap:14px;padding:16px 0}
+  .logo{width:44px;height:44px;border-radius:12px;background:conic-gradient(from 180deg, var(--green), var(--mint), var(--bg), var(--green));display:grid;place-items:center;border:1px solid rgba(52,78,65,.15);box-shadow:0 4px 18px rgba(52,78,65,.10) inset;font-weight:700;color:var(--deep)}
+  h1{font-size:clamp(18px,3.2vw,28px);margin:0}.subtitle{color:#5a6b63;font-size:14px;margin-top:2px}
+  .card{background:#fff;border:1px solid rgba(52,78,65,.12);border-radius:16px;padding:18px;box-shadow:0 8px 24px rgba(52,78,65,.06);margin:14px 0}
+  .btn{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid rgba(52,78,65,.15);background:var(--mint);font-weight:600;margin:6px 6px 0 0}
+  .kicker{font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#5a6b63;font-size:12px}
+  .list{margin:8px 0 0 18px}
+  table{width:100%;border-collapse:collapse;margin:8px 0 14px}
+  th,td{border:1px solid rgba(52,78,65,.15);padding:10px;text-align:left} th{background:var(--mint)}
+
+    @media print{header,footer,.btn{display:none}.card{box-shadow:none;border:1px solid rgba(52,78,65,.3)}}
+    </style></head><body><header><div class='wrap'><div class='brand'><div class='logo'>EA</div><div><h1>Ficha Informes</h1>
+    <div class='subtitle'>Imprime o guarda como PDF (Ctrl/Cmd + P)</div></div></div></div></header><main class='wrap'><section class='card'><h2>Plantilla de informe</h2><p></p><table><thead><tr><th>Campo</th><th>Contenido</th></tr></thead><tbody><tr><td>Nombre</td><td></td></tr><tr><td>Nivel</td><td>A1/A2/B1/B2</td></tr><tr><td>Objetivos</td><td></td></tr><tr><td>Progreso</td><td>%</td></tr><tr><td>Recomendaciones</td><td></td></tr></tbody></table><a class='btn' href='#' onclick='window.print()'>Imprimir / Guardar PDF</a></section></main><footer class='wrap'>© <span id='year'></span> Español en Acción · by Mercedes Giraldo</footer><script>document.getElementById('year').textContent=new Date().getFullYear()</script></body></html>
