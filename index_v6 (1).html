@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Español en Acción — by Mercedes Giraldo</title>
+<link rel="icon" href="favicon.svg">
+<meta name="description" content="Recursos didácticos de Español en Acción: fichas imprimibles, ejercicios interactivos, panel de estudiantes, planes de clase.">
+<meta property="og:title" content="Español en Acción — Mercedes Giraldo">
+<meta property="og:description" content="Fichas, juegos, lecturas y panel de estudiantes para clases de ELE.">
+<meta property="og:type" content="website">
+<style>
+  :root{--bg:#F4F0E9;--mint:#DDE7D1;--green:#9BBF9D;--deep:#344E41;--white:#ffffff}
+  *{box-sizing:border-box} html,body{margin:0;padding:0;background:var(--bg);color:var(--deep);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Helvetica Neue",Arial}
+  a{color:#344E41;text-decoration:none} .wrap{max-width:1100px;margin:0 auto;padding:24px}
+  header{position:sticky;top:0;z-index:20;background:rgba(244,240,233,.85);backdrop-filter:blur(8px);border-bottom:1px solid rgba(52,78,65,.08)}
+  nav{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:12px 0}
+  .brand{display:flex;align-items:center;gap:12px}
+  .logo{width:40px;height:40px;border-radius:12px;background:conic-gradient(from 180deg, var(--green), var(--mint), var(--bg), var(--green));display:grid;place-items:center;border:1px solid rgba(52,78,65,.15);font-weight:800}
+  .navlinks a{margin-left:12px;font-weight:600}
+  .hero{display:grid;grid-template-columns:1.2fr 1fr;gap:22px;align-items:center;padding:22px 0}
+  .hero h1{font-size:clamp(26px,4.2vw,44px);margin:0}
+  .sub{color:#5a6b63}
+  .card{background:#fff;border:1px solid rgba(52,78,65,.12);border-radius:16px;padding:18px;box-shadow:0 10px 28px rgba(52,78,65,.06);margin:14px 0}
+  .cta .btn{display:inline-block;padding:12px 16px;border-radius:12px;border:1px solid rgba(52,78,65,.15);background:var(--mint);font-weight:700;margin-right:8px}
+  .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--mint);border:1px solid rgba(52,78,65,.15);font-size:12px;margin:4px 6px 0 0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+  .item h3{margin:8px 0 6px}
+  .footer{color:#5a6b63;font-size:13px;margin-top:20px}
+  input#q{width:100%;padding:12px;border:1px solid rgba(52,78,65,.2);border-radius:12px;background:#fff;margin:10px 0}
+  @media(max-width:880px){.hero{grid-template-columns:1fr} .navlinks{display:none}}
+</style></head>
+<body>
+<header><div class="wrap"><nav>
+  <div class="brand"><div class="logo">EA</div>
+    <div><strong>Español en Acción</strong><div class="sub">by Mercedes Giraldo</div></div>
+  </div>
+  <div class="navlinks">
+    <a href="#recursos">Recursos</a>
+    <a href="estudiantes.html">Estudiantes</a>
+    <a href="recursos.html">Buscador</a>
+  </div>
+</nav></div></header>
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <h1>Material listo para usar en clase</h1>
+      <p class="sub">Fichas imprimibles, ejercicios interactivos, lecturas, juegos y un panel sencillo para gestionar a tus estudiantes.</p>
+      <div class="cta">
+        <a class="btn" href="recursos.html">Buscar recursos</a>
+        <a class="btn" href="estudiantes.html">Abrir Estudiantes</a>
+      </div>
+      <div style="margin-top:8px">
+        <span class="pill">A1</span><span class="pill">A2</span><span class="pill">B1</span><span class="pill">B2</span>
+        <span class="pill">Gramática</span><span class="pill">Vocabulario</span><span class="pill">Lecturas</span>
+      </div>
+    </div>
+    <div class="card"><img src="logo_espanol_en_accion.svg" alt="Logo" style="width:100%;border-radius:12px;border:1px solid rgba(52,78,65,.15)"></div>
+  </section>
+  <section id="recursos" class="card">
+    <div class="kicker">Rápidos</div>
+    <div class="grid">
+      <div class="item card"><h3>Verbos</h3><p class="sub">Regulares, irregulares y perífrasis.</p><a class="btn" href="ficha_verbos.html">Abrir ficha</a></div>
+      <div class="item card"><h3>Subjuntivo</h3><p class="sub">Usos y formas con ejemplos.</p><a class="btn" href="ficha_subjuntivo.html">Abrir ficha</a></div>
+      <div class="item card"><h3>Pretéritos</h3><p class="sub">Imperfecto vs indefinido.</p><a class="btn" href="ficha_preteritos.html">Abrir ficha</a></div>
+      <div class="item card"><h3>Juegos</h3><p class="sub">Dinámicas listas para clase.</p><a class="btn" href="ficha_juegos.html">Ver ideas</a></div>
+      <div class="item card"><h3>Lecturas A1–B1</h3><p class="sub">Textos cortos con clave.</p><a class="btn" href="ficha_lecturas_extra.html">Abrir</a></div>
+      <div class="item card"><h3>Ejercicios</h3><p class="sub">Interactividad sin instalar nada.</p><a class="btn" href="ejercicio_mc_subjuntivo.html">Probar</a></div>
+    </div>
+  </section>
+  <section class="card">
+    <div class="kicker">¿Nuevos materiales?</div>
+    <p>Para añadir fichas nuevas, súbelas a tu repositorio en <em>Code → Add file → Upload files</em>. Si quieres que aparezcan aquí en la portada, edita este <code>index_v6.html</code> y añade una tarjeta más (puedo darte el bloque listo).</p>
+    <p><a class="btn" href="ayuda_subir.html">Guía rápida para subir material</a></p>
+  </section>
+  <div class="footer">© 2025 Español en Acción · by Mercedes Giraldo</div>
+</main></body></html>
